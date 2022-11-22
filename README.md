@@ -12,5 +12,5 @@ This project uses the Django Rest Framework to create Apis
 To run Django server, write the following command ```python manage.py runserver```
 
 ## Auth Token
-When testing in postman, use ```Authorization     Token token``` in the headers after signing in to access protected routes.
+When testing in postman, use ```Authorization     Token token``` in the headers of postman after signing in to access protected routes.
 
