@@ -14,3 +14,14 @@ To run Django server, write the following command ```python manage.py runserver`
 ## Auth Token
 When testing in postman, use ```Authorization     Token token``` in the headers of postman after signing in to access protected routes.
 
+## Routes
+Below are the routes for the project
+
+General:
+/accounts/login/
+/accounts/signup/
+
+Protected:
+/chat/message/
+/chat/message/
+/chat/message?receiver__username=userId(For filtered search)
